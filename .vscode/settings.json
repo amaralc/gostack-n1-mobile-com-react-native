@@ -1,0 +1,29 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+
+  "emmet.syntaxProfiles": {"javascript": "jsx"},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "workbench.settings.editor": "json",
+
+  /** Organize code */
+  "eslint.validate": ["javascript", "javascriptreact","typescriptreact"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "eslint.format.enable": true,
+
+
+  /** REST Client environment variables*/
+  "rest-client.environmentVariables": {
+    "dev": {
+      "baseUrl": "http://192.168.0.13:3333",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MDgxMTkyMjcsImV4cCI6MTYwODIwNTYyNywic3ViIjoiZmFmZDZiZGYtNjQ0NS00ZGFhLTlmYTMtMjY0NWUxOGZlNzU3In0.GUveirqxaUrKE92SNLqTbCMOMJLvFKNjXEg96Nmcfvs"
+  },
+  }
+}
